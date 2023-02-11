@@ -1,12 +1,9 @@
 {
     "name": "cschultzot",
     "private": true,
-    "homepage": "https://cschultzot.github.io/cschultzot",
     "version": "0.0.0",
     "type": "module",
     "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "npm gh-pages",
         "dev": "vite",
         "build": "tsc && vite build",
         "preview": "vite preview"
